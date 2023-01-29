@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heart-container{
+    background: linear-gradient(260deg,#ADD8E6 0%, #003366 100%);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: flex;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: "Mochi Pop P One", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.heart{
+    transform: scale(0.8);
+}
+
+.heart-title{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.heart-subtitle{
+    padding: 0.5rem 0rem;
+}
+button{
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #003366;
+    font-family: "Mochi Pop P One", sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
